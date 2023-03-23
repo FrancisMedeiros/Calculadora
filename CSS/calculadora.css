@@ -1,0 +1,88 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 8px;
+}
+
+form {
+    width: 400px;
+    height: 450px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+body {
+    height: 90.8vh;
+    background-color: black;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input{
+    appearance: textfield;
+    font-size: 20px;
+    text-align: center;
+    padding: 16px;
+    font-weight: bold;
+    background-color: rgba(30, 22, 44, 0.288);
+    border-radius: 4px;
+    color: aliceblue;
+}
+
+select {
+    font-size: 20px;
+    text-align: center;
+    width: 250px;
+    padding: 16px;
+    font-weight: bold;
+    background-color: rgba(30, 22, 44, 0.288);
+    border-radius: 4px;
+    color: aliceblue;
+}
+
+button {
+    font-size: 20px;
+    text-align: center;
+    padding: 16px;
+    font-weight: bold;
+    background-color: rgba(30, 22, 44, 0.288);
+    border-radius: 4px;
+    color: aliceblue;
+}
+
+h1 {
+    font-size: 45px;
+    width: 400px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    padding: 16px;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(39, 27, 61, 0.288);
+}
+
+
+form {
+    font-size: 20px;
+    text-align: center;
+    padding: 16px;
+    font-weight: bold;
+    background-color: rgba(39, 27, 61, 0.288);
+    border-radius: 4px;
+    color: aliceblue;
+}
+
+body, form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div#result {
+    margin: 20px;
+    font-size: 19px;
+}
